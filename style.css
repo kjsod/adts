@@ -1,0 +1,150 @@
+body {
+  background-color: rgb(240, 240, 240);
+  margin: 0;
+}
+
+p{ 
+  font-family: Calibri;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  align-items: center;
+}
+.right-header {
+  padding-right: 10%;
+  display: flex;
+}
+.left-header {
+  margin-left: 7%;
+}
+header p {
+  margin-left: 40px;
+  font-size: 1.3em;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+main {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+h1, h2 {
+  margin-top: 50px;
+  display: inline-block;
+}
+
+footer {
+  background-color: rgb(220, 220, 220);
+  padding: 10px;
+  padding-left: 25px;
+  border-style: solid;
+  border-width: 1px;
+}
+
+.top-info {
+  display: flex;
+  justify-content: space-around;
+}
+.info-box {
+  background-color: rgb(231, 232, 255);
+  border-radius: 30px;
+  max-width: 35%;
+  padding: 20px;
+  padding-left: 60px;
+  padding-right: 60px;
+}
+.top-info p {
+  font-size: 1.4em;
+}
+
+.team {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+
+}
+.ansatt {
+  display: flex;
+}
+.ansatt-info {
+  background-color: pink;
+  border-radius: 10px;
+  width: 300px;
+  height: 150px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-bottom: 20px;
+}
+
+.ansattimg {
+  padding-top: 40px;
+  padding-right: 15px;
+}
+
+.ansatt p:first-of-type {
+  font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+.welcome p{
+  font-size: 2em;
+  text-align: center;
+  background-color: pink;
+  border-radius: 12px;
+  height: 200px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+
+.kontakt {
+  display: flex;
+  justify-content: space-between;
+}
+.item1 {
+  display: flex;
+  flex-direction: column;
+  margin-right: 15%;
+}
+.item2 {
+  width: 500px;
+  margin-right: 8%;
+}
+
+
+
+
+input {
+  width: 100%;
+}
+.input p {
+  margin: 0;
+  margin-top: 20px;
+}
+.melding {
+  height: 80px;
+  justify-content: ;
+}
+
+.send {
+  height: 35px;
+}
